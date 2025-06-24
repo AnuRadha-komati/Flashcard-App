@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f3ec78, #af4261);
+  margin: 0;
+  padding: 20px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 450px;
+  width: 100%;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#counter {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.card {
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.question {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.answer {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #007bff;
+  transition: opacity 0.5s ease;
+}
+
+.hidden {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px 15px;
+  background: #007bff;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.buttons button:hover {
+  background: #0056b3;
+}
+
+form input {
+  padding: 10px;
+  margin: 5px;
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #218838;
+}
+
+select {
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
